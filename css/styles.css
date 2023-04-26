@@ -8,3 +8,29 @@ img {
   display: block;
   max-width: 100%;
 }
+.box-title{
+
+}
+
+.section-light {
+  background-color: #e6f3ff ;
+}
+.slogan{
+  text-align: center;
+}
+
+.section-dark{
+  background-color: #11161d;
+}
+
+.cta{
+  background-color: #11161d;
+}
+
+.cta-light{
+  background-color:#e6f3ff ;
+}
+
+.section-dark h2 {
+  color:#e6f3ff ;
+}
