@@ -1,5 +1,5 @@
 body {
-  max-width: 320px;
+  max-width: 380px;
   margin: auto;
   background: #ddd;
   font-family: 'Space Grotesk', sans-serif;
@@ -9,9 +9,33 @@ img {
   display: block;
   max-width: 100%;
 }
-.box-title{
 
-.button-container{
+header {
+  background: url(../img/Fond_ecran.png);
+  padding: 30px;
+  background-size: cover;
+}
+
+h2,
+h3 {
+  font-weight: 300;
+}
+
+.box-title {
+  border-radius: 0;
+  background: black;
+  padding: 50px 70px 20px 70px;
+
+}
+
+.slogan {
+  text-align: center;
+  padding-bottom: 5px;
+  color: #e6f3ff;
+  font-size: 15px;
+}
+
+.button-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,30 +44,56 @@ img {
 }
 
 .section-light {
-  background-color: #e6f3ff ;
+  background-color: #e6f3ff;
+  text-align: center;
+  padding: 30px;
 }
-.slogan{
+
+
+.section-dark {
+  background-color: #11161d;
+  padding: 30px;
+}
+
+.section-dark h2 {
+  color: #e6f3ff;
   text-align: center;
 }
 
-.section-dark{
-  background-color: #11161d;
-.button{
+.button {
   border-radius: 10px;
   background: #e6f3ff;
   padding: 20px;
   margin: 30px;
-  
 }
 
-.cta{
+.card {
+  width: 40%;
+  margin: 10px 0;
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+
+.cta {
   background-color: #11161d;
+  color: #e6f3ff;
+  border-radius: 13px;
+  padding: 10px 40px;
+  margin: 10px;
 }
 
-.cta-light{
-  background-color:#e6f3ff ;
+.cta-light {
+  background-color: #e6f3ff;
+  color: #11161d;
+  padding: 10px 20px;
 }
 
-.section-dark h2 {
-  color:#e6f3ff ;
+footer {
+  color: #ffffff30;
+  text-align: center;
+  font-size: 12px;
 }
