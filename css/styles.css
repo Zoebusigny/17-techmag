@@ -8,6 +8,8 @@ body {
 img {
   display: block;
   max-width: 100%;
+  width: 40%;
+  
 }
 
 header {
@@ -47,8 +49,9 @@ h3 {
   background-color: #e6f3ff;
   text-align: center;
   padding: 30px;
+  display: flex;
+  align-items: center;
 }
-
 
 .section-dark {
   background-color: #11161d;
@@ -63,20 +66,19 @@ h3 {
 .button {
   border-radius: 10px;
   background: #e6f3ff;
-  padding: 20px;
-  margin: 30px;
+  padding: 25px;
+  
 }
 
 .card {
   width: 40%;
   margin: 10px 0;
-  padding: 40px;
+  padding-left: 120px;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
 }
-
 
 .cta {
   background-color: #11161d;
