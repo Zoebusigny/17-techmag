@@ -27,6 +27,12 @@ img {
 
 .section-dark{
   background-color: #11161d;
+.button{
+  border-radius: 10px;
+  background: #e6f3ff;
+  padding: 20px;
+  margin: 30px;
+  
 }
 
 .cta{
